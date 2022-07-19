@@ -5,6 +5,7 @@
 #include <cryptopp/aes.h>
 #include <cryptopp/filters.h>
 using namespace std;
+using namespace CryptoPP;
 
 string readEncryptedBinaryFile(string fname)
 {
